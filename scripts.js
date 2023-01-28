@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $('.header_burger').click(function(event){
-        $('.header_burger, .header_menu').toggleClass('active');
-        $("body").toggleClass('lock');
-    });
-});
+let is = false;
+document.querySelector(“.header_burger”).addEventListener(“click”, () => { if (!is) {
+document.querySelector(“.header_burger”).classList. toogle(“active”);
+is = !is;
+}
+})
